@@ -18,11 +18,7 @@ Response
    "ReturnDate":"2020-12-08 11:56:49",
    "ReturnMessage":"查無此帳號",
    "ReturnData":{
-      "firstlogings":false,
-      "level":"VIP",
-      "memberlabel":"國軍會員",
       "AcctID":388848,
-      "LoginID":"O200253285",
       "Status":0
    }
 }
@@ -44,11 +40,7 @@ export function Response() {
         ReturnCode: 0,
         ReturnDate: '2020-12-08 11:56:49',
         ReturnData: {
-            firstlogings: false,
-            level: 'VIP',
-            memberlabel: '國軍會員',
             AcctID: 388848,
-            LoginID: 'O200253285',
             Status: 0,
         },
     };

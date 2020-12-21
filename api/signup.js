@@ -9,7 +9,7 @@ function log(myJson) {
 }
 
 function real(request) {
-    return fetch('https://10.2.108.136:3366/carplus/member/registration', {
+    return fetch('carplus/member/registration', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(request),
